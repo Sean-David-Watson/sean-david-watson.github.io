@@ -7,7 +7,7 @@ baseurl: ""
 # Site Author Profile Sidebar
 author:
   name: "Sean Watson"
-  avatar: "bio-photo.jpg" # We will upload your photo for this later!
+avatar: "images/bio-photo.jpg"
   bio: "Incoming Chemical Engineering Student at Tennessee Tech University | Eagle Scout"
   location: "Kingsport, TN"
   employer: "Tennessee Tech University"
