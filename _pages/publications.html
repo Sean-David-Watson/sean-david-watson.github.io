@@ -1,36 +1,33 @@
 ---
 layout: archive
-title: "Publications"
+title: "Technical & Leadership Projects"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+Welcome to my project portfolio. This space is dedicated to showcasing engineering design projects, laboratory research, and technical leadership initiatives as I progress through my Chemical Engineering curriculum at Tennessee Tech University.
 
-{% include base_path %}
+---
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## Leadership & Logistics Projects
 
+### **Community Service Logistics Infrastructure Project**
+*Project Director | [cite_start]Boy Scouts of America (Troop 250)* [cite: 22, 23]
+* [cite_start]**Objective:** Designed and executed a large-scale operational and logistics project supporting the community outreach infrastructure for **Providence Medical Clinic**.
+* [cite_start]**Execution:** Managed end-to-end material procurement, coordinated independent volunteer work schedules, and optimized supply placement workflows.
+* **Key Outcome:** Successfully delivered critical structural and organizational assets to the clinic on time, proving capability in managing multi-tier project timelines and leading diverse teams.
 
+---
 
+## Upcoming STEM & Engineering Portfolios (Fall 2026)
+
+*The following categories will host technical documentation, code repositories, and analytical data sheets upon commencement of undergraduate coursework at Tennessee Tech.*
+
+### 🧪 Material & Energy Balances
+* **Focus:** Computational analysis of steady-state chemical processes, mass flow rates, and chemical system efficiencies.
+
+### 💻 Numerical Methods & MATLAB Modeling
+* **Focus:** Utilizing Python, MATLAB, and Excel VBA to model fluid thermodynamics, heat transfers, and automated process control loops.
+
+### 📊 Applied Laboratory Research
+* [cite_start]**Focus:** Formal lab reports, safety data analysis sheets (SDSs), and precision measurement documentation adhering strictly to OSHA protocols[cite: 14].
